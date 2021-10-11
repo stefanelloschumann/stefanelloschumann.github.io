@@ -29,7 +29,7 @@ twitter_username: dudustefanello
 github_username:  stefanelloschumann
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
