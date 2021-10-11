@@ -1,11 +1,14 @@
 title: Proteus Helps
-description: Alguns helps no Protheus
+description: >-
+  Alguns helps no Protheus
 
 url: "https://stefanelloschumann.github.io"
 github_username: stefanelloschumann
 email: eduardo.stefanello@schumann.com.br
 
 theme: jekyll-theme-hacker
+
+links_to_prev_next: true
 
 plugins:
   - jekyll-feed
