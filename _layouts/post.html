@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<small>
+    {% assign dy = page.date | date: "%a" %}
+    {% case dy %}
+        {% when "Sun" %}Domingo,
+        {% when "Mon" %}Segunda-feira,
+        {% when "Tues" %}Terça-feira,
+        {% when "Wed" %}Quarta-feira,
+        {% when "Thurs" %}Quinta-feira,
+        {% when "Fri" %}Sexta-feira,
+        {% when "Tue" %}Sábado,
+    {% endcase %}
+
+    {{ page.date | date: "%-d de" }}
+
+    {% assign m = page.date | date: "%-m" %}
+    {% case m %}
+        {% when '1'  %}janeiro
+        {% when '2'  %}fevereiro
+        {% when '3'  %}março
+        {% when '4'  %}abril
+        {% when '5'  %}maio
+        {% when '6'  %}junho
+        {% when '7'  %}julho
+        {% when '8'  %}agosto
+        {% when '9'  %}setembro
+        {% when '10' %}outubro
+        {% when '11' %}novembro
+        {% when '12' %}dezembro
+    {% endcase %}
+
+    {{ page.date | date: "de %Y" }}
+</small>
+
+<h1>{{ page.title }}</h1>
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}

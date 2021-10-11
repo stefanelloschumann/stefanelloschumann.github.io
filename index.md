@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title:  "Início"
 ---
+
+## 1. [Artigos de AdvPL](advpl)
+## 2. [Artigos de Delphi](delphi)
+## 3. [Artigos de Python](python)
+## 4. [Artigos de Django](django)
