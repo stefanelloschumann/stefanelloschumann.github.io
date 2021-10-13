@@ -13,6 +13,8 @@ A função Parambox retorna um valor lógico, que possibilita que ela seja usada
 
 O *array* de opções começa com o tipo do campo. Abaixo os tipos possíveis:
 
+***
+
 ## 1. Data
 
 | **Ordem** | **Tipo** | **Descrição**          | **Valor default** |
@@ -160,6 +162,8 @@ O *array* de opções começa com o tipo do campo. Abaixo os tipos possíveis:
 | 5         | String   | Validacao When         | `''`              |
 | 6         | Lógico   | Parametro Obrigatorio  | `.T`              |
 
+***
+
 ## Assinatura do ParamBox
 
 | **Ordem** | **Nome**      | **Descrição**                                            | **Valor default** |
@@ -176,6 +180,8 @@ O *array* de opções começa com o tipo do campo. Abaixo os tipos possíveis:
 | **10**    | *cLoad*       | Nome do perfil se caso for carregar                      | `cLoad`           | 
 | **11**    | *lCanSave*    | Salvar os dados informados nos parâmetros por perfil     | `lCanSave`        | 
 | **12**    | *lUserSave*   | Configuração por usuário                                 | `lUserSave`       | 
+
+***
 
 #### Referências:
 
