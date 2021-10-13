@@ -7,3 +7,4 @@ author: Eduardo
 ---
 
 ### [Utilizando ParamBox](parambox)
+### [Funções úteis](uteis)

@@ -5,6 +5,9 @@ title:      Úteis
 date:       2021-10-13 13:15:49 -0300
 layout:     post
 ---
-## DTOS(\<data\>
+## Formatação de datas
 
-Converte uma data em uma cadeia de caracteres no formato "aaaammdd".
+* **DTOC(\<data\>)**: Converte de data para caracter
+* **DTOS(\<data>\)**: Converte de data para string no formato aaaammdd
+* **STOD(\<aaaammdd\>)**: Converte de String para data no formato dd/mm/aaaa
+* **Date()**: Retorna a data atual
